@@ -1,0 +1,56 @@
+# Node modules
+node_modules
+
+# Next.js build output
+.next
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage
+
+# Temporary files
+*.log
+*.tmp
+
+# Git directory
+.git
+.gitignore
+
+# Docker files (optional, depending on your setup)
+# Dockerfile
+# docker-compose.yml
+
+# README and other documentation
+README.md
+*.md
+
+# Build artifacts
+build
+dist
+
+# Dependency lock files (optional, depending on your workflow)
+# package-lock.json
+# yarn.lock
+
+# Any other project-specific files or directories that aren't needed in the Docker image
